@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1651659408 source:c:\users\vip\documents\ltnc\gamesnake\main.cpp
+	<iostream>
+	<conio.h>
+	<ctime>
+	"Snake.h"
+	"Food.h"
+
+1651659096 c:\users\vip\documents\ltnc\gamesnake\include\snake.h
+	<windows.h>
+	<vector>
+
+1651659165 source:c:\users\vip\documents\ltnc\gamesnake\src\snake.cpp
+	"Snake.h"
+
+1651659096 c:\users\vip\documents\ltnc\gamesnake\include\food.h
+	<windows.h>
+	<cstdio>
+
+1651655997 source:c:\users\vip\documents\ltnc\gamesnake\src\food.cpp
+	"Food.h"
+

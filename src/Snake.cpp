@@ -24,7 +24,7 @@ COORD Snake::getPos()
     return pos;
 }
 
-vector<COORD> Snake::getBody()
+deque<COORD> Snake::getBody()
 {
     return body;
 }
@@ -62,7 +62,7 @@ void Snake::moveSnake()
 
     body.push_back(pos);
     int bodysize = body.size();
-    if(bodysize > len) body.erase(body.begin());
+    if(bodysize > len) body.pop_front();
 }
 
 bool Snake::collided()

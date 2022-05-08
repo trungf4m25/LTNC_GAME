@@ -19,7 +19,7 @@ void board()
 {
     COORD snakePos = snake.getPos();
     COORD foodPos = food.getPos();
-    vector<COORD> snakeBody = snake.getBody();
+    deque<COORD> snakeBody = snake.getBody();
     cout << "SCORE : " << score << "\n\n";
     for(int i = 0; i < HEIGHT; i++)
     {
